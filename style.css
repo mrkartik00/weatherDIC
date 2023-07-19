@@ -1,0 +1,134 @@
+body {
+    background-image: url(/icons/background.jpg);
+    background-position: center;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#city-input {
+    width: 200px;
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border-color: #000000;
+    border-style: solid;
+}
+
+.weather-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.weather-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.weather-icon img {
+    width: 70px;
+    height: 70px;
+}
+
+.temperature {
+    font-size: 24px;
+}
+
+.description {
+    margin-top: 10px;
+}
+
+#search-button {
+    color: black;
+    border-radius: 10px;
+    border-style: solid;
+    box-sizing: border-box;
+    background-color: white;
+    overflow: visible;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    color: rgb(71, 68, 68);
+    background-color: rgb(189, 185, 185);
+    transition: 0.2s;
+}
+
+#search-button:active {
+    color: rgb(59, 58, 58);
+    background-color: rgb(128, 128, 128);
+    transition: 0.2s;
+}
+
+
+.search-container {
+    animation: fadeInDown 1s;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.weather-card {
+    animation: fadeInDown 2s;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1 {
+    animation: fadeInDown 1s;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
